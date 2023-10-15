@@ -3,6 +3,9 @@ main:
   - title: "Publications"
     url: /publications/
 
+  - title: "SHort CV"
+    url: /CV/    
+
   # - title: "Talks"
   #   url: /talks/    
 
@@ -16,7 +19,7 @@ main:
   #   url: /year-archive/
     
   - title: "Full CV"
-    url: /cv/
+    url: /cv/ # Full CV URL To be Changed
     
   # - title: "Guide"
   #   url: /markdown/
