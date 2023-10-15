@@ -9,23 +9,28 @@ redirect_from:
 
 {% include base_path %}
 
+======
+======
+
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ph.D Candidate in Department of Computer Science and Engineering, Korea University, 2028 (expected)
+* M.S in Deparment of Sotware Application, Kangnam University, 2023
+<!-- * B.S. in GitHub, GitHub University, 2012 --> 
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Language AI Researcher at NLP Center, NCSOFT
+  * Apr. 2023 ~ Oct. 2023
+  * Data Engineering Team at NLP Data Tech Division
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Research Intern at NAVER Search U.S.
+  * Nov. 2022 ~ Feb. 2023
+  * Universial Advisor Team at Search CIC
+ 
+* Language AI Intern at Langauge AI Lab, NCSOFT
+  * Jan. 2022 ~ Sep. 2022
+  * Machine Translation Data Team
   
 Skills
 ======
