@@ -11,7 +11,7 @@ title                    : "Sangbeom Lim / Site Title"
 title_separator          : "-"
 name                     : &name "Sangbeom Lim"
 description              : &description "M.S/Ph.D Intergraded Student in Korea University @ CVLab"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://sangbeomlim.github.io"
+url                      : https://sangbeomlim.github.io # the base hostname & protocol for your site e.g. "https://sangbeomlim.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "SangbeomLim/sangbeomlim.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -80,12 +80,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Sangbeom Lim"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "M.S/Ph.D Intergraded Student in Korea University, CVLab"
   location         : "Seoul, Korea"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=8AYX-2gAAAAJ&hl=en"
   email            : "limsbeom@korea.ac.kr"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
@@ -103,13 +103,13 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "https://www.linkedin.com/in/limsbeom/"
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : # "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : # "replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
