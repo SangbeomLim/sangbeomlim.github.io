@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Sangbeom Lim / Site Title"
+title                    : "Sangbeom Lim"
 title_separator          : "-"
 name                     : &name "Sangbeom Lim"
 description              : &description "M.S/Ph.D Intergraded Student in Korea University @ CVLab"
