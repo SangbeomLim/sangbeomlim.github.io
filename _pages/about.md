@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 I am a Ph.D. candidate in the Department of Computer Science and Engineering at Korea University under the supervision of [Seungryong Kim](https://seungryong.github.io/). My research Interest are Computer Vision and Multi-Modal AI. I
-have interned at NAVER Search U.S., Naver Corp. working with [Dongchan Kim](https://dongchankim.io/) and [Taesun Whang](taesunwhang.github.io).  I have also worked at NLP Center, NCSOFT working with Seungjin Lee and Ayoung Moon.
+have interned at NAVER Search U.S., NAVER Corp. working with [Dongchan Kim](https://dongchankim.io/) and [Taesun Whang](taesunwhang.github.io).  I have also worked at NLP Center, NCSOFT working with Seungjin Lee and Ayoung Moon.
 
 Education
 ======
