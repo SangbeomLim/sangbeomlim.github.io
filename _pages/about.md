@@ -17,7 +17,7 @@ Education
 * B.S in Deparment of Sotware Application, Kangnam University, 2023
 <!-- * B.S. in GitHub, GitHub University, 2012 --> 
 
-Work experience
+Work Experience
 ======
 * Language AI Researcher at NLP Center, NCSOFT
   * Apr. 2023 ~ Oct. 2023
@@ -30,6 +30,10 @@ Work experience
 * Language AI Intern at Langauge AI Lab, NCSOFT
   * Jan. 2022 ~ Sep. 2022
   * Machine Translation Data Team
+
+Academic Services
+======
+* CVPR 2024 Reviewer 
 
 For more info
 ------
