@@ -33,7 +33,7 @@ Work Experience
 
 Academic Services
 ======
-* CVPR 2024 Reviewer 
+* CVPRW 2024 Reviewer 
 
 For more info
 ------
