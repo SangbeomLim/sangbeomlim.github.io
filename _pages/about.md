@@ -13,7 +13,9 @@ have interned at NAVER Search U.S., NAVER Corp. working with [Dongchan Kim](http
 
 Education
 ======
-* Ph.D Student in Department of Computer Science and Engineering, Korea University
+* Korea University, Seoul, Korea
+  * M.S./Ph.D Integrated Student in Computer Science and Engineering
+  * Nov. 2023 - Present
 <!-- * B.S in Deparment of Sotware Application, Kangnam University, 2023 -->
 <!-- * B.S. in GitHub, GitHub University, 2012 --> 
 
