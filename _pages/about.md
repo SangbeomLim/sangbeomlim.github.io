@@ -22,19 +22,38 @@ Work Experience
 * Language AI Researcher at NLP Center, NCSOFT
   * Apr. 2023 ~ Oct. 2023
   * Data Engineering Team at NLP Data Tech Division
+  * Mentor: Ayoung Moon, Seungjin Lee
 
 * Research Intern at NAVER Search U.S.
   * Nov. 2022 ~ Feb. 2023
   * Universial Advisor Team at Search CIC
+  * Mentor: Taesun Whang, Dongchan Kim, Yoon Kim
  
 * Language AI Intern at Langauge AI Lab, NCSOFT
   * Jan. 2022 ~ Sep. 2022
   * Machine Translation Data Team
+  * Mentor: Ayoung Moon, Seungjin Lee
+ 
+Publications
+=====
+> <i style='font-style: normal;'>**Multi-granularity Video Object Segmentation**<br></i>
+>> <i style='font-style: normal;'>**Sangbeom Lim**\*, Seongchan Kim*, Seungjun An*  Seokju Cho, Paul Hongsuck Seo†, Seungryong Kim†<br></i>
+>> <i style='font-style: normal;'>AAAI Conference on Artificial Intelligence (**AAAI**), 2025.<br></i>
+>> <i style='font-style: normal;'><a href="https://cvlab-kaist.github.io/MUG-VOS/">[Project Page]</a> <a href="https://arxiv.org/abs/2412.01471">[arXiv]</a> 
+
+### Preprints
+
+> <i style='font-style: normal;'>**Referring Video Object Segmentation via Language-aligned Track Selection**<br></i>
+>> <i style='font-style: normal;'>Seongchan Kim*, Woojeong Jin*, **Sangbeom Lim**\*, Heeji Yoon*, HyunWook Choi, Seungryong Kim<br></i>
+>> <i style='font-style: normal;'>ArXiv Preprint, 2024.<br></i>
+>> <i style='font-style: normal;'><a href="https://arxiv.org/pdf/2412.01136">[arXiv]</a> 
 
 Academic Services
 ======
-* CVPRW 2024 Reviewer 
+* 2024 - CVPR LIMIT 2024 Reviewer
 
+<!--
 For more info
 ------
 More info about ME can be found in my [Full CV](https://sangbeomlim.github.io/cv)
+-->
