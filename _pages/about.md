@@ -39,14 +39,14 @@ Work Experience
 Publications
 =====
 > <i style='font-style: normal;'>**Multi-granularity Video Object Segmentation**<br></i>
->> <i style='font-style: normal;'>**Sangbeom Lim**\*, Seongchan Kim*, Seungjun An*  Seokju Cho, Paul Hongsuck Seo†, Seungryong Kim†<br></i>
+>> <i style='font-style: normal;'>**Sangbeom Lim**\*, Seongchan Kim\*, Seungjun An\*  Seokju Cho, Paul Hongsuck Seo†, Seungryong Kim†<br></i>
 >> <i style='font-style: normal;'>AAAI Conference on Artificial Intelligence (**AAAI**), 2025.<br></i>
 >> <i style='font-style: normal;'><a href="https://cvlab-kaist.github.io/MUG-VOS/">[Project Page]</a> <a href="https://arxiv.org/abs/2412.01471">[arXiv]</a> 
 
 ### Preprints
 
 > <i style='font-style: normal;'>**Referring Video Object Segmentation via Language-aligned Track Selection**<br></i>
->> <i style='font-style: normal;'>Seongchan Kim*, Woojeong Jin*, **Sangbeom Lim**\*, Heeji Yoon*, HyunWook Choi, Seungryong Kim<br></i>
+>> <i style='font-style: normal;'>Seongchan Kim\*, Woojeong Jin\*, **Sangbeom Lim**\*, Heeji Yoon\*, HyunWook Choi, Seungryong Kim<br></i>
 >> <i style='font-style: normal;'>ArXiv Preprint, 2024.<br></i>
 >> <i style='font-style: normal;'><a href="https://arxiv.org/pdf/2412.01136">[arXiv]</a> 
 
