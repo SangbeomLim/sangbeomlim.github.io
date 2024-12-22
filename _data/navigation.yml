@@ -1,7 +1,7 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
+  # - title: "Publications"
+  #   url: /publications/
 
   # - title: "Talks"
   #   url: /talks/    
@@ -15,8 +15,8 @@ main:
   # - title: "Blog Posts"
   #   url: /year-archive/
     
-  - title: "Full CV"
-    url: https://drive.google.com/file/d/1sbq_RbmfT4bd0pS0qYVw1n7qloM2Sdvt/view?usp=drive_link # Full CV URL To be Changed
+  # - title: "Full CV"
+  #   url: https://drive.google.com/file/d/1sbq_RbmfT4bd0pS0qYVw1n7qloM2Sdvt/view?usp=drive_link # Full CV URL To be Changed
     
   # - title: "Guide"
   #   url: /markdown/
