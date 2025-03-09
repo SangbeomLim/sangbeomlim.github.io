@@ -21,6 +21,10 @@ Education
 
 Work Experience
 ======
+* Adobe, San Jose, CA
+  * Incoming Research Intern
+  * Mentor: Seoungwug Oh, Joon-Young Lee
+
 * Language AI Researcher at NLP Center, NCSOFT
   * Apr. 2023 ~ Oct. 2023
   * Data Engineering Team at NLP Data Tech Division
