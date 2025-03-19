@@ -25,19 +25,19 @@ Work Experience
   * Incoming Research Intern
   * Mentor: Seoungwug Oh, Joon-Young Lee
 
-* Language AI Researcher at NLP Center, NCSOFT
-  * Apr. 2023 ~ Oct. 2023
+* NCSOFT, Pangyo, South Korea
+  * Language AI Researcher at NLP Center, Apr. 2023 ~ Oct. 2023
   * Data Engineering Team at NLP Data Tech Division
   * Mentor: Ayoung Moon, Seungjin Lee
 
-* Research Intern at NAVER Search U.S.
-  * Nov. 2022 ~ Feb. 2023
+* NAVER Search U.S., Seattle, WA (Remote in Korea office)
+  * Research Intern, Nov. 2022 ~ Feb. 2023
   * Universial Advisor Team at Search CIC
   * Mentor: Taesun Whang, Dongchan Kim, Yoon Kim
  
-* Language AI Intern at Langauge AI Lab, NCSOFT
-  * Jan. 2022 ~ Sep. 2022
-  * Machine Translation Data Team
+* NCSOFT, Pangyo, South Korea
+  * Language AI Intern, Jan. 2022 ~ Sep. 2022
+  * Machine Translation Data Team at Langauge AI Lab
   * Mentor: Ayoung Moon, Seungjin Lee
  
 Publications
