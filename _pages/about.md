@@ -51,7 +51,7 @@ Publications
 
 > <i style='font-style: normal;'>**URECA: Unique Region Caption Anything**<br></i>
 >> <i style='font-style: normal;'>**Sangbeom Lim**\*, Junwan Kim\*, Heeji Yoon, Jaewoo Jung, Seungryong Kim†<br></i>
->> <i style='font-style: normal;'>ArXiv, 2025.<br></i>
+>> <i style='font-style: normal;'>ArXiv Preprint, 2025.<br></i>
 >> <i style='font-style: normal;'><a href="https://cvlab-kaist.github.io/URECA/">[Project Page]</a> <a href="https://arxiv.org/abs/2504.05305">[arXiv]</a> <a href="https://github.com/cvlab-kaist/URECA">[Code]</a> 
 
 > <i style='font-style: normal;'>**Referring Video Object Segmentation via Language-aligned Track Selection**<br></i>
