@@ -23,19 +23,19 @@ Work Experience
 ======
 * Adobe, San Jose, CA
   * Incoming Research Intern
-  * Mentor: Seoungwug Oh, Joon-Young Lee
+  * Mentor: [Seoungwug Oh](https://sites.google.com/view/seoungwugoh/), [Joon-Young Lee](https://joonyoung-cv.github.io/)
 
-* NCSOFT, Pangyo, South Korea
+* NCSOFT, Pan-gyo, South Korea
   * Language AI Researcher at NLP Center, Apr. 2023 ~ Oct. 2023
   * Data Engineering Team at NLP Data Tech Division
   * Mentor: Ayoung Moon, Seungjin Lee
 
-* NAVER Search U.S., Seattle, WA (Remote in Korea office)
+* NAVER Search U.S., Seattle, WA (Remotely worked in Korea office)
   * Research Intern, Nov. 2022 ~ Feb. 2023
   * Universial Advisor Team at Search CIC
-  * Mentor: Taesun Whang, Dongchan Kim, Yoon Kim
+  * Mentor: Taesun Whang, Dongchan Kim, [Yoon Kim](https://people.csail.mit.edu/yoonkim/)
  
-* NCSOFT, Pangyo, South Korea
+* NCSOFT, Pan-gyo, South Korea
   * Language AI Intern, Jan. 2022 ~ Sep. 2022
   * Machine Translation Data Team at Langauge AI Lab
   * Mentor: Ayoung Moon, Seungjin Lee
