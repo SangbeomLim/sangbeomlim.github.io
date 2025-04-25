@@ -60,8 +60,10 @@ Publications
 >> <i style='font-style: normal;'><a href="https://arxiv.org/pdf/2412.01136">[arXiv]</a> 
 
 Academic Services
-======
-* 2024 - CVPR LIMIT 2024 Reviewer
+=====
+### Reviewer
+* 2025 - **ICCV**
+* 2024 - **CVPRW**
 
 <!--
 For more info
