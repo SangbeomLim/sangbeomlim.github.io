@@ -22,7 +22,7 @@ Education
 Work Experience
 ======
 * Adobe, San Jose, CA
-  * Incoming Research Intern
+  * May. 2025 ~ Sep. 2025
   * Mentor: [Seoungwug Oh](https://sites.google.com/view/seoungwugoh/), [Joon-Young Lee](https://joonyoung-cv.github.io/)
 
 * NCSOFT, Pan-gyo, South Korea
