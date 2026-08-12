@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sangbeom Lim</title>
+  <meta name="description" content="Sangbeom Lim — Ph.D. candidate at Korea University, advised by Seungryong Kim and Paul Hongsuck Seo, and a research intern at Adobe. Research on general perception in video — Segment Anything and Matting Anything — and its application to video understanding.">
+  <meta property="og:title" content="Sangbeom Lim">
+  <meta property="og:description" content="Ph.D. candidate at Korea University · Research Intern at Adobe. General perception in video — Segment Anything and Matting Anything — and video understanding.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sangbeomlim.github.io/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="layout" id="top">
+
+  <!-- ======================= Sidebar ======================= -->
+  <aside class="sidebar">
+    <img class="portrait" src="assets/photo.jpg"
+         onerror="this.onerror=null;this.src='assets/photo-placeholder.svg';"
+         alt="Portrait of Sangbeom Lim" width="640" height="640">
+    <h1>Sangbeom Lim</h1>
+    <p class="tagline">Ph.D. Candidate at Korea University<br>Research Intern at <a href="https://research.adobe.com/" class="quiet">Adobe</a></p>
+    <ul class="contact-links">
+      <li><a href="mailto:limsbeom@korea.ac.kr">Email</a></li>
+      <li><a href="files/CV.pdf">CV</a></li>
+      <li><a href="https://scholar.google.com/citations?user=8AYX-2gAAAAJ&amp;hl=en">Google Scholar</a></li>
+      <li><a href="https://github.com/SangbeomLim">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/limsbeom/">LinkedIn</a></li>
+    </ul>
+    <nav class="side-nav" aria-label="Sections">
+      <a href="#news">News</a>
+      <a href="#publications">Publications</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#service">Service</a>
+    </nav>
+  </aside>
+
+  <main>
+
+  <section class="bio" id="about">
+    <p>
+      I am a Ph.D. candidate at Korea University, advised by
+      <a href="https://cvlab.kaist.ac.kr/members/faculty">Seungryong Kim</a> and Paul Hongsuck Seo,
+      and a research intern at <a href="https://research.adobe.com/">Adobe</a>. My research focuses on
+      <em>general perception in video</em> &mdash; especially Segment Anything and Matting Anything
+      (<a href="https://cvlab-kaist.github.io/VideoMaMa">VideoMaMa</a>) &mdash;
+      and its application to video understanding.
+    </p>
+    <p>
+      I have interned at Adobe in San Jose, where I was fortunate to work with
+      <a href="https://sites.google.com/view/seoungwugoh/">Seoung Wug Oh</a> and
+      <a href="https://joonyoung-cv.github.io/">Joon-Young Lee</a>.
+      Earlier, I was a research intern at NAVER Search U.S. working with
+      <a href="https://dongchankim.io/">Dongchan Kim</a>, and a Language AI researcher at the
+      NLP Center of NCSOFT, working with Ayoung Moon and Seungjin Lee.
+    </p>
+  </section>
+
+  <!-- ======================= News ======================= -->
+  <section id="news">
+    <h2>News</h2>
+    <ul class="news-list">
+      <li><span class="date">Jun 2026</span><span>Two papers (<a href="https://cvlab-kaist.github.io/SOLA/">SOLA</a>, <a href="https://cvlab-kaist.github.io/VIRAL/">VIRAL</a>) accepted to ICML 2026 workshops.</span></li>
+      <li><span class="date">Apr 2026</span><span>Started a research internship at Adobe (San Jose, CA).</span></li>
+      <li><span class="date">Feb 2026</span><span><a href="https://cvlab-kaist.github.io/VideoMaMa">VideoMaMa</a> accepted to <strong>CVPR 2026</strong>.</span></li>
+    </ul>
+  </section>
+
+  <!-- ======================= Publications ======================= -->
+  <section id="publications">
+    <h2>Publications</h2>
+    <p class="section-note">
+      * denotes equal contribution.
+      <span class="selected-key"><span class="selected-dot" aria-hidden="true"></span> Selected work</span>
+    </p>
+
+    <h3 class="year">2026</h3>
+
+    <article class="pub">
+      <p class="pub-title"><span class="selected-dot" role="img" aria-label="Selected publication"></span><a href="https://cvlab-kaist.github.io/VideoMaMa">VideoMaMa: Mask-Guided Video Matting via Generative Prior</a></p>
+      <p class="pub-authors"><span class="me">Sangbeom Lim</span>, Seoung Wug Oh, Jiahui Huang, Heeji Yoon, Seungryong Kim, Joon-Young Lee</p>
+      <p class="pub-venue"><span class="venue">CVPR</span>, 2026</p>
+      <p class="pub-note">Work done during my internship at Adobe.</p>
+      <p class="pub-links"><a href="https://cvlab-kaist.github.io/VideoMaMa">Project Page</a> <a href="https://arxiv.org/abs/2601.14255">arXiv</a> <a href="https://github.com/cvlab-kaist/VideoMaMa">Code</a> <a href="https://huggingface.co/spaces/SammyLim/VideoMaMa">Demo</a></p>
+    </article>
+
+    <article class="pub">
+      <p class="pub-title"><a href="https://cvlab-kaist.github.io/SOLA/">Referring Video Object Segmentation via Language-aligned Track Selection</a></p>
+      <p class="pub-authors">Seongchan Kim*, Woojeong Jin*, <span class="me">Sangbeom Lim*</span>, Heeji Yoon*, Hyunwook Choi, Seungryong Kim</p>
+      <p class="pub-venue"><span class="venue">ICML Workshop</span>, 2026</p>
+      <p class="pub-links"><a href="https://cvlab-kaist.github.io/SOLA/">Project Page</a> <a href="https://cvlab-kaist.github.io/SOLA/static/paper.pdf">Paper</a> <a href="https://github.com/cvlab-kaist/SOLA">Code</a></p>
+    </article>
+
+    <article class="pub">
+      <p class="pub-title"><a href="https://cvlab-kaist.github.io/VIRAL/">Visual Representation Alignment for Multimodal Large Language Models</a></p>
+      <p class="pub-authors">Heeji Yoon*, Jaewoo Jung*, Junwan Kim*, Hyungyu Choi, Heeseong Shin, <span class="me">Sangbeom Lim</span>, Honggyu An, Chaehyun Kim, Jisang Han, Donghyun Kim, Chanho Eom, Sunghwan Hong, Seungryong Kim</p>
+      <p class="pub-venue"><span class="venue">ICML Workshop</span>, 2026</p>
+      <p class="pub-links"><a href="https://cvlab-kaist.github.io/VIRAL/">Project Page</a> <a href="https://arxiv.org/abs/2509.07979">arXiv</a> <a href="https://github.com/cvlab-kaist/VIRAL">Code</a></p>
+    </article>
+
+    <h3 class="year">2025</h3>
+
+    <article class="pub">
+      <p class="pub-title"><span class="selected-dot" role="img" aria-label="Selected publication"></span><a href="https://cvlab-kaist.github.io/MUG-VOS/">Multi-Granularity Video Object Segmentation</a></p>
+      <p class="pub-authors"><span class="me">Sangbeom Lim*</span>, Seongchan Kim*, Seungjun An*, Seokju Cho, Paul Hongsuck Seo, Seungryong Kim</p>
+      <p class="pub-venue"><span class="venue">AAAI</span>, 2025</p>
+      <p class="pub-links"><a href="https://cvlab-kaist.github.io/MUG-VOS/">Project Page</a> <a href="https://arxiv.org/abs/2412.01471">arXiv</a></p>
+    </article>
+
+    <article class="pub">
+      <p class="pub-title"><span class="selected-dot" role="img" aria-label="Selected publication"></span><a href="https://cvlab-kaist.github.io/URECA/">URECA: Unique Region Caption Anything</a></p>
+      <p class="pub-authors"><span class="me">Sangbeom Lim*</span>, Junwan Kim*, Heeji Yoon, Jaewoo Jung, Seungryong Kim</p>
+      <p class="pub-venue"><span class="venue">Preprint</span>, 2025</p>
+      <p class="pub-links"><a href="https://cvlab-kaist.github.io/URECA/">Project Page</a> <a href="https://arxiv.org/abs/2504.05305">arXiv</a> <a href="https://github.com/cvlab-kaist/URECA">Code</a></p>
+    </article>
+
+    <h3 class="year">2023</h3>
+
+    <article class="pub">
+      <p class="pub-title"><a href="https://openaccess.thecvf.com/content/ICCV2023W/LIMIT/html/Lim_Image_Guided_Inpainting_with_Parameter_Efficient_Learning_ICCVW_2023_paper.html">Image Guided Inpainting with Parameter Efficient Learning</a></p>
+      <p class="pub-authors"><span class="me">Sangbeom Lim</span>, Seungryong Kim</p>
+      <p class="pub-venue"><span class="venue">ICCV Workshops</span>, 2023</p>
+      <p class="pub-links"><a href="https://openaccess.thecvf.com/content/ICCV2023W/LIMIT/html/Lim_Image_Guided_Inpainting_with_Parameter_Efficient_Learning_ICCVW_2023_paper.html">Paper</a></p>
+    </article>
+  </section>
+
+  <!-- ======================= Experience ======================= -->
+  <section id="experience">
+    <h2>Experience</h2>
+
+    <div class="entry">
+      <div class="entry-head">
+        <p class="entry-title">Adobe <span class="entry-sub">Research Scientist / Engineer Intern &middot; San Jose, CA, USA</span></p>
+        <p class="entry-when">Apr – Aug 2026</p>
+      </div>
+      <p class="entry-detail">Mentors: <a href="https://sites.google.com/view/seoungwugoh/">Seoung Wug Oh</a> and <a href="https://joonyoung-cv.github.io/">Joon-Young Lee</a></p>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <p class="entry-title">Adobe <span class="entry-sub">Research Scientist / Engineer Intern &middot; San Jose, CA, USA</span></p>
+        <p class="entry-when">May – Sep 2025</p>
+      </div>
+      <p class="entry-detail">Mentors: <a href="https://sites.google.com/view/seoungwugoh/">Seoung Wug Oh</a>, <a href="https://gabriel-huang.github.io">Gabriel Huang</a>, and <a href="https://joonyoung-cv.github.io/">Joon-Young Lee</a></p>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <p class="entry-title">NCSOFT <span class="entry-sub">Language AI Researcher &middot; Pangyo, Korea</span></p>
+        <p class="entry-when">Jan – Sep 2022 &middot; Apr – Oct 2023</p>
+      </div>
+      <p class="entry-detail">Mentors: Ayoung Moon, Seungjin Lee</p>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <p class="entry-title">NAVER Search U.S. <span class="entry-sub">Research Intern &middot; Seattle, WA (Hybrid)</span></p>
+        <p class="entry-when">Dec 2021 – Feb 2022</p>
+      </div>
+      <p class="entry-detail">Mentors: <a href="https://dongchankim.io/">Dongchan Kim</a>, Young-Bum Kim, and <a href="https://people.csail.mit.edu/yoonkim/">Yoon Kim</a></p>
+    </div>
+  </section>
+
+  <!-- ======================= Education ======================= -->
+  <section id="education">
+    <h2>Education</h2>
+
+    <div class="entry">
+      <div class="entry-head">
+        <p class="entry-title">Korea University <span class="entry-sub">Ph.D. in Computer Science and Engineering &middot; Seoul, Korea</span></p>
+        <p class="entry-when">2023 – Present</p>
+      </div>
+      <p class="entry-detail">Advised by <a href="https://cvlab.kaist.ac.kr/members/faculty">Seungryong Kim</a> and Paul Hongsuck Seo.</p>
+    </div>
+  </section>
+
+  <!-- ======================= Service ======================= -->
+  <section id="service">
+    <h2>Academic Service</h2>
+    <ul class="news-list">
+      <li><span class="date">2027</span><span>Reviewer: AAAI</span></li>
+      <li><span class="date">2026</span><span>Reviewer: AAAI, ICLR, CVPR, NeurIPS, TPAMI</span></li>
+      <li><span class="date">2025</span><span>Reviewer: AAAI, ICCV</span></li>
+      <li><span class="date">2024</span><span>Reviewer: CVPR Workshops</span></li>
+    </ul>
+  </section>
+
+  </main>
+</div>
+
+<footer>
+  <p>&copy; 2026 Sangbeom Lim &middot; <a href="mailto:limsbeom@korea.ac.kr">limsbeom@korea.ac.kr</a></p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,436 @@
+/* ==========================================================================
+   Sangbeom Lim — academic homepage
+   Warm-paper minimal style: cream background, serif display, sage accent.
+   Two-column layout: sticky sidebar (photo, name, links) + wide content.
+   ========================================================================== */
+
+:root {
+  --bg: #fbfaf7;
+  --ink: #211f1a;
+  --muted: #6d6a5f;
+  --faint: #767369;
+  --line: #e5e2d8;
+  --accent: #3b654a;
+  --accent-dark: #294a35;
+  /* pi.website pairing: Source Sans 3 (same font) + STIX Two Text
+     (free stand-in for their licensed serif, Signifier by Klim) */
+  --serif: "STIX Two Text", "Iowan Old Style", Georgia, serif;
+  --sans: "Source Sans 3", -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16.25px;
+  line-height: 1.67;
+  overflow-wrap: break-word;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection { background: #dce8df; }
+
+section { scroll-margin-top: 2rem; }
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  transition: color 140ms ease, text-decoration-color 140ms ease;
+}
+a:hover { color: var(--accent-dark); text-decoration: underline; }
+a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+a.quiet { color: inherit; }
+a.quiet:hover { color: var(--accent-dark); }
+
+h1, h2, h3 {
+  font-family: var(--serif);
+  font-weight: 500;
+  line-height: 1.25;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.55rem;
+  letter-spacing: -0.012em;
+  margin: 3.5rem 0 1.1rem;
+}
+
+main > section:first-child h2:first-child { margin-top: 0; }
+
+/* ------------------------------------------------------------- layout --- */
+
+.layout {
+  max-width: 71rem;
+  margin: 0 auto;
+  padding: 3.75rem 2rem 3.25rem;
+  display: grid;
+  grid-template-columns: 14rem minmax(0, 1fr);
+  gap: 4.25rem;
+  align-items: start;
+}
+
+main { min-width: 0; }
+
+/* ------------------------------------------------------------ sidebar --- */
+
+.sidebar {
+  position: sticky;
+  top: 2.5rem;
+}
+
+.portrait {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: #edeae0;
+  box-shadow: 0 12px 32px rgb(33 31 26 / 6%);
+}
+
+.sidebar h1 {
+  font-size: 2rem;
+  letter-spacing: -0.022em;
+  margin-top: 1.2rem;
+}
+
+.tagline {
+  margin: 0.45rem 0 1.1rem;
+  color: var(--muted);
+  font-size: 0.94rem;
+  line-height: 1.5;
+}
+
+.contact-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.92rem;
+  font-weight: 500;
+}
+
+.contact-links li { padding: 0.16rem 0; }
+
+.side-nav {
+  margin-top: 1.3rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--line);
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.side-nav a {
+  color: var(--muted);
+  font-size: 0.88rem;
+  font-weight: 500;
+}
+.side-nav a:hover { color: var(--ink); text-decoration: none; }
+
+/* on short viewports a sticky sidebar could get clipped — let it scroll */
+@media (max-height: 700px) {
+  .sidebar { position: static; }
+}
+
+/* ---------------------------------------------------------------- bio --- */
+
+.bio {
+  max-width: 47rem;
+}
+.bio p { margin: 0 0 1.05rem; }
+.bio p:first-child { margin-top: 0.35rem; }
+.bio em { font-style: italic; }
+
+/* --------------------------------------------------------------- news --- */
+
+.news-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.news-list li {
+  display: grid;
+  grid-template-columns: 5.4rem 1fr;
+  gap: 1rem;
+  padding: 0.38rem 0;
+}
+
+.news-list .date {
+  color: var(--faint);
+  font-size: 0.85rem;
+  font-weight: 500;
+  white-space: nowrap;
+  padding-top: 0.15em;
+}
+
+/* ------------------------------------------------------- publications --- */
+
+.section-note {
+  margin: -0.5rem 0 0.5rem;
+  color: var(--faint);
+  font-size: 0.85rem;
+}
+
+.selected-key {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.38rem;
+  margin-left: 1rem;
+  white-space: nowrap;
+}
+
+.selected-dot {
+  display: inline-block;
+  width: 0.4rem;
+  height: 0.4rem;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+h3.year {
+  font-size: 1.1rem;
+  font-style: italic;
+  font-weight: 500;
+  color: var(--muted);
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 0.35rem;
+  margin: 2.4rem 0 0.4rem;
+}
+
+.pub {
+  margin: 0 -0.55rem;
+  padding: 0.9rem 0.55rem;
+  border-radius: 6px;
+  transition: background-color 140ms ease;
+}
+
+.pub:hover { background: rgb(59 101 74 / 3.5%); }
+.pub p { margin: 0; }
+
+.pub-title {
+  font-family: var(--serif);
+  font-size: 1.13rem;
+  font-weight: 500;
+  line-height: 1.35;
+  letter-spacing: -0.006em;
+}
+.pub-title > .selected-dot {
+  margin-right: 0.52rem;
+  transform: translateY(-0.1rem);
+}
+.pub-title a { color: var(--ink); }
+.pub-title a:hover { color: var(--accent-dark); }
+
+.pub .pub-authors {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: 0.15rem;
+}
+.pub-authors .me { color: var(--ink); font-weight: 600; }
+
+.pub .pub-venue {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-top: 0.15rem;
+}
+.pub-venue .venue { font-weight: 600; color: var(--ink); }
+.pub-venue .award { color: var(--accent); font-weight: 600; }
+.pub-venue .detail { color: var(--faint); }
+
+.pub .pub-note {
+  font-size: 0.85rem;
+  color: var(--faint);
+  font-style: italic;
+  margin-top: 0.2rem;
+}
+
+.pub .pub-links {
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-top: 0.3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 1rem;
+}
+
+/* ------------------------------------------- experience / education ----- */
+
+.entry { padding: 0.75rem 0; }
+.entry p { margin: 0; }
+
+.entry-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0 1rem;
+}
+
+.entry-title {
+  font-weight: 600;
+  font-size: 0.98rem;
+}
+
+.entry-sub {
+  display: block;
+  font-weight: 400;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.entry-when {
+  color: var(--faint);
+  font-size: 0.88rem;
+  white-space: nowrap;
+}
+
+.entry .entry-detail {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: 0.2rem;
+}
+
+/* ------------------------------------------------------------- footer --- */
+
+footer {
+  border-top: 1px solid var(--line);
+  margin-top: 2rem;
+}
+
+footer p {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 1.4rem 2rem 2.2rem;
+  color: var(--faint);
+  font-size: 0.85rem;
+}
+
+/* ------------------------------------------------------------- mobile --- */
+
+@media (max-width: 900px) {
+  .layout {
+    display: block;
+    padding: 1.8rem 1.1rem 2.5rem;
+  }
+
+  .sidebar {
+    position: static;
+    display: grid;
+    grid-template-columns:
+      minmax(0, 1fr)
+      minmax(0, 10.75rem)
+      1.35rem
+      104px
+      minmax(0, 1fr);
+    grid-template-rows: auto auto auto;
+    align-items: start;
+  }
+
+  .portrait {
+    grid-column: 4;
+    grid-row: 1 / 3;
+    justify-self: end;
+    width: 104px;
+    border-radius: 12px;
+  }
+
+  .sidebar h1 {
+    grid-column: 2;
+    grid-row: 1;
+    align-self: end;
+    font-size: 2.05rem;
+    margin-top: 0;
+  }
+
+  .tagline {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: start;
+    margin: 0.5rem 0 0;
+    font-size: 0.95rem;
+  }
+  /* links flow inline with dot separators, like a compact header */
+  .contact-links {
+    grid-column: 1 / -1;
+    grid-row: 3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.25rem 0.75rem;
+    margin-top: 0.8rem;
+    padding-bottom: 0.85rem;
+    border-bottom: 1px solid var(--line);
+  }
+  .contact-links li { padding: 0; }
+
+  .side-nav {
+    display: none;
+  }
+
+  .bio { padding-top: 1.45rem; }
+
+  body { font-size: 16px; }
+
+  h2 { font-size: 1.4rem; margin-top: 2.6rem; }
+
+  .news-list li {
+    grid-template-columns: 4.6rem 1fr;
+    gap: 0.7rem;
+  }
+
+  .entry-head { flex-direction: column; }
+
+  footer p { padding-left: 1.1rem; padding-right: 1.1rem; }
+}
+
+@media (max-width: 360px) {
+  .sidebar {
+    grid-template-columns:
+      minmax(0, 1fr)
+      minmax(0, 10.4rem)
+      1rem
+      88px
+      minmax(0, 1fr);
+  }
+
+  .portrait { width: 88px; }
+  .sidebar h1 { font-size: 1.8rem; }
+  .tagline { font-size: 0.86rem; }
+  .contact-links {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    justify-content: center;
+    column-gap: 0.7rem;
+  }
+  .bio { padding-top: 1.2rem; }
+
+  .selected-key {
+    display: flex;
+    width: max-content;
+    margin: 0.2rem 0 0;
+  }
+
+  .news-list li {
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding: 0.45rem 0;
+  }
+}
