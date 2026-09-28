@@ -270,6 +270,11 @@ h3.year {
   flex-wrap: wrap;
   gap: 0 1rem;
 }
+.pub-links .stars {
+  margin-left: 0.2rem;
+  color: var(--faint);
+  font-weight: 400;
+}
 
 /* ------------------------------------------- experience / education ----- */
 
